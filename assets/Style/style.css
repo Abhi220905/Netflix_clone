@@ -1,22 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(../Img/header-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(/assets/Img/header-img.jpg);
     background-size: cover;
     background-position: 50%;
     height: 90vh;
 }
 
-/* Navbar  */
+/* navbar */
 
 nav img {
     width: 13%;
@@ -34,8 +27,7 @@ nav img {
     background: rgb(193, 17, 25);
 }
 
-
-/* hero  */
+/* hero section */
 
 .hero-title {
     font-size: 3rem;
@@ -77,7 +69,6 @@ form .form-floating>.form-control:focus~label::after {
 
 form .form-floating {
     width: 50%;
-    ;
 }
 
 form #floatingInput {
@@ -101,7 +92,7 @@ form label {
     margin-left: 5px;
 }
 
-/* purple section  */
+/* purple section */
 
 .purple-section {
     transform: translateY(-50%);
@@ -109,7 +100,7 @@ form label {
 }
 
 .purple-section .container-md {
-    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9000 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
     box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
     margin: 0 74px;
@@ -142,11 +133,11 @@ form label {
 }
 
 .purple-section a::after {
-    content: "\276f";
+    content: "\276F";
     margin-left: 10px;
 }
 
-/* Enjoy Section  */
+/* enjoy section */
 
 .section-title {
     font-size: 3rem;
@@ -164,32 +155,7 @@ form label {
     border-bottom: 5px solid #232323;
 }
 
-
-/* card  */
-
-.feature-card { 
-    background: linear-gradient(145deg, #1c003d, #09001f); 
-    border-radius: 20px;
-    padding: 25px;
-    color: #fff;
-    height: 100%;
-    transition: 0.3s ease;
-}
-
-.feature-card:hover {
-    background: linear-gradient(145deg, #24004d, #120033);
-    transform: translateY(-5px);
-}
-
-.feature-icon {
-    margin-top: 20px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-/* faq */
+/* faq section */
 
 .faq-section h3 {
     font-size: 1.25rem;
@@ -245,7 +211,7 @@ form label {
     content: "\00d7";
 }
 
-/* footer  */
+/* footer */
 
 footer {
     border-top: 5px solid #232323;
@@ -291,12 +257,11 @@ footer .arrow-down {
     right: -115px;
 }
 
+/* mobile */
 
-/* mobile  */
-
-@media only screen and(max-width:992px) {
+@media only screen and (max-width: 992px) {
     nav img {
-        width: 17%
+        width: 17%;
     }
 
     .hero-title,
@@ -308,10 +273,9 @@ footer .arrow-down {
     .hero-first-p,
     .hero-second-p,
     .section-paragraph,
-    .faq-section h3{
+    .faq-section h3 {
         font-size: 1.125rem;
     }
-
 
     .purple-section img {
         width: 50%;
@@ -319,7 +283,6 @@ footer .arrow-down {
 
     .enjoy-section .container {
         padding-top: 5rem;
-
     }
 }
 
@@ -361,6 +324,6 @@ footer .arrow-down {
 
     .purple-section img {
         width: 20%;
-        top: -45%;
+        top: -45px;
     }
 }
